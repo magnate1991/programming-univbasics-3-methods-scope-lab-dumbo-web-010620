@@ -1,8 +1,6 @@
-def mario
-  status = 'Thank You Mario! But Our Princess Is In Another Castle!'
-  puts phrase
-end
+phrase = "Do A Barrel Roll!"
 
-def toadstool
-  puts status
+def any_phrase(phrase)
+  puts "#{phrase}"
 end
+ any_phrase
